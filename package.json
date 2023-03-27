@@ -7,7 +7,7 @@
     "start": "node ./index.js",
     "dev": "nodemon",
     "prd": "pm2 start ecosystem.config.js --env production",
-    "deploy": "npm install && npm run start",
+    "deploy": "npm install && node ./index.js",
     "publish": "node publish"
     
   },
